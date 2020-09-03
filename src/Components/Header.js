@@ -293,9 +293,9 @@ export default function Header(){
                             </i>
                         </div>
                         <div className={`col l3 right flexed ${isLogged ? 'hide' : ''}`}>
-                            <a href={'https://xrizwan.github.io/pinterest-clone/'}>
+                            <Link to="/">
                                 <button className="s-button redbg-color">Login</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="right drop-down account hide" ref={accountRef}>

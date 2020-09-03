@@ -1,6 +1,5 @@
 import React from 'react';
 import github from '../images/github-logo.png'
-import {Link} from 'react-router-dom';
 import './styles/About.css';
 
 export default function About(){
@@ -15,7 +14,7 @@ export default function About(){
                 <div className="a-about-text">This project is not related to Pinterest in any way.</div>
                 <br/>
                 <div className="center">
-                    <a href="#somelink" target="_blank" rel="noopener noreffer">
+                    <a href="https://github.com/xRizwan/pinterest-clone" rel="noopener noreferrer" target="_blank" >
                         <img src={github} className="logo logo-bigger" alt="github-repository"/>
                     </a>
                 </div>
@@ -31,9 +30,9 @@ export default function About(){
             <br />
             
             <div className="center">
-                <Link to="/">
+                <a href="https://xrizwan.github.io/pinterest-clone/">
                     <i className="material-icons a-back-key">keyboard_backspace</i>
-                </Link>
+                </a>
             </div>
         </div>
     )

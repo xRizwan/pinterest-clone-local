@@ -54,16 +54,16 @@ function App() {
   }, [dispatcher, ])
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
 
         {/* main path for user not logged in */}
-        <Route exact path="/">
+        <Route exact path={'/'}>
           <MainHeader />
           <MainPage />
         </Route>
 
-        <Route exact path="/about">
+        <Route exact path={'/about'}>
           <About />
         </Route>
         

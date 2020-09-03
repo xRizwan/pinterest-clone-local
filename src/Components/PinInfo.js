@@ -313,7 +313,7 @@ export default function PinInfo(props){
                                 Uploaded By
                                 <span> </span>
                                 <Link to={`/user/${userInfo[1]}`}>
-                                    <span className="bold-weight name-link">{userInfo[0] === '' ? userInfo[0] : 'Nameless User'}</span>
+                                    <span className="bold-weight name-link">{userInfo[0] !== '' ? userInfo[0] : 'Nameless User'}</span>
                                 </Link>
                             </div>
                             : ''}

@@ -218,7 +218,7 @@ function Header() {
         })
     }
     
-    // facebook login
+    // facebook signup
     const facebookAuth = () => {
         changeLoader(true);
         const provider = new firebase.auth.FacebookAuthProvider();

@@ -105,6 +105,7 @@ export default function Header(){
 
     const signOutUser = () => {
         closeTabs();
+        closeSettings();
         firebase.auth().signOut().then(() => {
             changeLogRedirect(true);
         })
@@ -292,9 +293,9 @@ export default function Header(){
                             </i>
                         </div>
                         <div className={`col l3 right flexed ${isLogged ? 'hide' : ''}`}>
-                            <Link to="/">
+                            <a href={'https://xrizwan.github.io/pinterest-clone/'}>
                                 <button className="s-button redbg-color">Login</button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className="right drop-down account hide" ref={accountRef}>

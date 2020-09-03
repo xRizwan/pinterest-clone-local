@@ -19,4 +19,4 @@
 > &nbsp;&nbsp;&nbsp;&nbsp; - Integrating Firebase storage and making use of it. <br/><br/>
 > &nbsp;&nbsp;&nbsp;&nbsp; - Using React Router to create dynamic/static links. <br/><br/>
 > &nbsp;&nbsp;&nbsp;&nbsp; - Using Drag & Drop API to let users drop files/images to save on firebase storage. <br/><br/>
-> &nbsp;&nbsp;&nbsp;&nbsp; - Test my skills and prepare real-world applications. <br/><br/>
+> &nbsp;&nbsp;&nbsp;&nbsp; - Test my skills and prepare for real-world applications. <br/><br/>

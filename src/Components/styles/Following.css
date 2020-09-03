@@ -1,0 +1,38 @@
+.following-modal{
+    width: 47%;
+    position: absolute;
+    border: 1px solid rgb(235, 77, 77);
+    height: 96%;
+    left: 27%;
+    top: 2%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgb(235, 77, 77) 0 0 10px;
+    padding: 10px;
+}
+.users-name{
+    font-size: 16px;
+    position: relative;
+    left: 5px;
+    text-align: left;
+}
+.user-image-container{
+    position: relative;
+    left: -10px !important;
+}
+.about-container{
+    word-break: break-all;
+    width: 200px;
+    font-size: 15px;
+}
+.blackbg-color{
+    background-color: rgb(31, 30, 30);
+}
+.user-container{
+    background-color: #dddada;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.a-i{
+    font-size: 70px;
+}

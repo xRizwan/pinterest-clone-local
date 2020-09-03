@@ -1,0 +1,309 @@
+.pin-image{
+    width: 100%;
+    height: 550px;
+    image-rendering: optimizeSpeed;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+}
+.pin-image:hover{
+    filter: brightness(0.5);
+}
+.info-container{
+    border: 1px solid black;
+    position: relative;
+    left: -11px !important;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 550px;
+    padding: 10px !important;
+}
+.save-btn{
+    border-radius: 5px !important;
+    width: 100px !important;
+}
+.pin-icon{
+    margin-right: 20px;
+    font-size: 35px;
+    color: rgb(216, 64, 64);
+    cursor: pointer;
+}
+.uploaders-info{
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.pin-user-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.pin-user-icon{
+    font-size: 50px;
+}
+.user-images{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.user-nf-container{
+    width: 100px;
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+    margin-left: 5px;
+}
+.emote{
+    color: black;
+    font-size: 40px;
+}
+.comment-opener{
+    font-size: 30px;
+    position: relative;
+    top: 7px;
+    cursor: pointer;
+}
+.all-comments{
+    height: 270px;
+    padding: 20px;
+    overflow-y: scroll;
+    font-size: 15px;
+    background: #e4e2e2;
+}
+.bigger-input{
+    height: 65px !important;
+}
+.comment-text{
+    border: 1px solid black !important;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background: white;
+    margin-bottom: 10px;
+}
+.bordered{
+    border: 1px solid black;
+}
+.name-link{
+    color: black;
+}
+.name-link:hover{
+    text-decoration: underline;
+}
+.p-comment-container{
+    margin-bottom: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    animation-name: get-in;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.backward-button{
+    cursor: pointer !important;
+}
+.darkBgColor{
+    background-color: black !important;
+}
+.purpColor{
+    color: rebeccapurple;
+}
+.pointer{
+    cursor: pointer;
+}
+@keyframes get-in{
+    0%{
+        background-color: #f4f4f4;
+    }
+    100%{
+        background-color: #aca8a8;
+    }
+}
+.comment-username{
+    font-size: 12px;
+    position: relative;
+    left: -17px;
+}
+.comment-message{
+    font-size: 14px;
+    border-radius: 1px;
+    border: none !important;
+}
+.fix-location{
+    position: relative;
+    left: 10px;
+}
+.comment-icons{
+    cursor: pointer;
+}
+.icon-container{
+    position: relative;
+    left: 20px !important;
+}
+.text-container{
+    position: relative;
+    left: 10px !important;
+    word-break: break-all;
+    width: 420px !important;
+}
+.comments-container{
+    width: 500px;
+}
+.big-input{
+    width: 400px !important;
+}
+.big-container{
+    width: 450px !important;
+}
+.found-panel{
+    border-radius: 10px;
+    position: absolute;
+    left: -5px;
+    top: 60px;
+    background-color: white;
+    padding: 10px;
+    max-height: 260px;
+    overflow-y: scroll;
+    font-size: 16px;
+    z-index: 600;
+}
+.boxed{
+    max-width: 150px;
+    min-width: 50px;
+    color: rgb(216, 64, 64);
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+}
+.special-boxed{
+    width: 100%;
+    color: rgb(216, 64, 64);
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+}
+@media (max-width: 1050px){
+    .text-container{
+        width: 300px !important;
+    }
+    .pin-image{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+        width: 500px;
+    }
+    .info-container{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        width: 500px !important;
+        left: 353px !important;
+        top: -10px;
+    }
+    .photogrid-container{
+        width: 910px;
+    }
+}
+@media (max-width: 910px){
+    .pin-image{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+        width: 560px;
+    }
+    .info-container{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        width: 560px !important;
+        left: 71px !important;
+        top: -10px;
+    }
+    .photogrid-container{
+        width: 800px;
+    }
+    .big-input{
+        width: 200px !important;
+    }
+    .big-container{
+        width: 250px !important;
+    }
+}
+
+@media (max-width: 840px){
+    .pin-image-container{
+        position: relative;
+        left: 59px !important;
+    }
+    .pin-image{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+        width: 480px !important;
+    }
+    .info-container{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        width: 480px !important;
+        left: 70px !important;
+        top: -10px;
+    }
+    .all-comments{
+        height: 300px;
+        width: 450px !important;
+        padding: 20px;
+        background: #e4e2e2;
+    }
+    .fix-location{
+        position: relative;
+        left: initial !important;
+    }
+    .text-container{
+        word-break: break-all;
+        width: 400px !important;
+    }
+    .photogrid-container{
+        width: 700px;
+    }
+}
+.pin-title{
+    word-break: break-all;
+    font-size: 17px;
+    color: royalblue;
+}
+
+@media (max-width: 620px){
+    .pin-image-container{
+        position: relative;
+        left: initial !important;
+    }
+    .pin-image{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+        width: 400px !important;
+    }
+    .info-container{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        width: auto !important;
+        left: initial !important;
+    }
+    .all-comments{
+        height: 300px;
+        width: 370px !important;
+        padding: 20px;
+        background: #e4e2e2;
+        display: block !important;
+    }
+    .comments-container{
+        width: 320px;
+    }
+    .comment-username{
+        top: -10px;
+    }
+    .text-container{
+        width: 300px !important;
+    }
+    .photogrid-container{
+        width: 400px;
+    }
+}

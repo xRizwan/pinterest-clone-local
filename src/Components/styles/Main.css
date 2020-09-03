@@ -1,0 +1,83 @@
+
+.pref-modal{
+    width: 67%;
+    position: absolute;
+    border: 1px solid rgb(235, 77, 77);
+    height: 96%;
+    left: 17%;
+    top: 2%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgb(235, 77, 77) 0 0 10px;
+    padding: 10px;
+}
+.small-text{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.pref-container{
+    height: 80%;
+    overflow-y: scroll;
+}
+.pref{
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(235, 77, 77);
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tag-selected{
+    background-color: rgb(66, 66, 66);
+}
+.pref-button{
+    width: 90%;
+    position: relative;
+    left: -20px;
+    top: 22px;
+    background-color: rgb(252, 27, 27);
+    color: white;
+    font-weight: 700;
+    height: 50px;
+}
+.delete-saved-pin{
+    position: absolute;
+    font-size: 40px;
+    color: orange;
+    z-index: 500;
+    cursor: pointer;
+}
+.loaderv2{
+    width: 200px;
+    height: 200px;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    z-index: 500;
+    border-radius: 50%;
+}
+.fixed-width{
+    width: 20rem;
+}
+.photogrid-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photogrid-photo{
+    padding: 10px;
+}
+.auto-fit1{
+    height: 23rem;
+    width: 19rem;
+    object-fit: cover;
+    cursor: zoom-in;
+    border-radius: 20px;
+    background-color: pink;
+}
+.auto-fit1:hover{
+    filter: brightness(60%);
+}

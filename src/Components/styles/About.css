@@ -1,0 +1,36 @@
+.logo-bigger{
+    width: 100px;
+    border-radius: 40%;
+    background-color: #f4f4f4;
+    animation-name: blink;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+.logo-bigger:hover{
+    background-color: blanchedalmond;
+    animation-play-state: paused;
+}
+@keyframes blink{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: teal;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+.a-about-text{
+    color: white;
+    font-size: 18px;
+}
+.a-footer-text{
+    font-size: 14px;
+    color: white;
+}
+.a-back-key{
+    font-size: 50px;
+}

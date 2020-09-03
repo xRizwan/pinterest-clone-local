@@ -1,0 +1,637 @@
+body {
+    overflow: visible;
+}
+.padded{
+    padding-left: 20px;
+}
+.row{
+    margin-bottom: 0px;
+}
+.tab{
+    margin-left: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 14px;
+    cursor: pointer;
+    background-color: white;
+}
+.tab:hover{
+    filter: brightness(80%);
+}
+.selected {
+    background-color: rgb(231, 54, 54);
+    color: white !important;
+}
+.search-bar-container{
+    border-radius: 40px;
+    display: flex;
+    background-color: #f4f4f4;
+}
+#search{
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+}
+.flexed{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.icon {
+    border-radius: 50%;
+    width: 100px;
+    font-size: 35px !important;
+    padding: 0 !important;
+    opacity: 0.7;
+    cursor: pointer;
+    color: rgb(189, 38, 38);
+}
+.icon:active{
+    border: 3px solid dodgerblue;
+}
+.icon:hover{
+    background-color: #f4f4f4;
+}
+.drop-down{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 200px;
+    line-height: 35px;
+    padding: 20px;
+    padding-top: 0;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 999999999;
+}
+.account{
+    position: absolute;
+    left: 83%;
+}
+.notifications{
+    position: absolute;
+    left: 63%;
+    width: 400px;
+    height: 600px;
+    overflow: scroll;
+}
+.messages{
+    position: absolute;
+    left: 71%;
+    width: 370px;
+    height: 600px;
+    overflow: scroll;
+}
+.msg-text{
+    font-size: 35px;
+    opacity: 0.8;
+}
+.account-link{
+    font-size: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.account-link:hover{
+    background-color: #f4f4f4;
+}
+.account-link:active{
+    border: 1px solid dodgerblue;
+}
+.msg-icons{
+    float: right;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+.msg-icons:hover{
+    background-color: #f4f4f4;
+}
+.msg-icons:active{
+    border: 1px solid dodgerblue;
+}
+.msg-icons:focus{
+    border: 1px solid dodgerblue;
+}
+.msg-icon{
+    position: relative;
+    top: 13px;
+}
+.msg-heading{
+    position: relative;
+    top: 15px;
+}
+.s-heading-text{
+    font-size: 16px;
+    opacity: 0.6;
+}
+.s-heading-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.s-icon{
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    margin-right: 6px;
+    opacity: 0.6;
+    color: rgb(231, 54, 54);
+}
+.s-selected{
+    opacity: 1;
+}
+.s-buttons{
+    height: 100px;
+    display: flex;
+}
+.vertical-align{
+    margin: 30% 0;
+}
+.main-info{
+    width: 26rem;
+}
+.s-button{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.s-button:hover{
+    filter: brightness(80%);
+}
+.redbg-color{
+    background-color: rgb(233, 41, 41);
+    color: white;
+}
+.user-image{
+    display: flex;
+}
+.account-icon{
+    font-size: 80px;
+    opacity: 0.7;
+}
+.image-btn{
+    position: relative;
+    top: 30px;
+}
+.s-input{
+    border-bottom: none !important;
+    border: 2px solid rgba(0, 0, 0, 0.4) !important;
+    border-radius: 20px !important;
+    width: 20rem !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-top: 5px !important;
+    font-size: 16px !important;
+}
+.s-input:hover{
+    border-color: dodgerblue !important;
+}
+.account-username{
+    position: relative;
+    top: -40px;
+}
+.account-about{
+    position: relative;
+    top: -20px;
+}
+.s-username, .s-location{
+    width: 44rem !important;
+}
+.s-textarea{
+    height: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    font-size: 16px;
+}
+.not-opaque{
+    opacity: 1;
+}
+.s-subheading-text{
+    position: relative;
+    left: 5px;
+    font-size: 12px;
+}
+.s-age{
+    width: 100px !important;
+}
+.change-passbtn{
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+.user-age, .user-gender, .user-preferences{
+    font-size: 12px;
+}
+.user-gender, .user-preferences{
+    position: relative;
+    top: -40px;
+    width: 300px;
+}
+.user-preferences{
+    width: 500px !important;
+    height: 50px !important;
+    font-size: 17px;
+    position: relative !important;
+    left: -12px !important;
+}
+.s-overlay {
+    height: 750px !important;
+}
+.s-modal{
+    position: absolute;
+    width: 50rem;
+    height: 35rem;
+    background: white;
+    top: 20%;
+    left: 20%;
+    z-index: 300;
+    border-radius: 7%;
+    padding: 20px;
+}
+.pass-header{
+    width: 200px !important;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.h-row{
+    width: 690px !important;
+    position: relative !important;
+    left: -10px !important;
+}
+.err{
+    color: rgb(231, 54, 54);
+    font-size: 15px;
+    width: 400px;
+}
+.button-container{
+    width: fit-content !important;
+    margin-left: 60% !important;
+    margin-top: 30px;
+}
+.bigger{
+    width: 100px;
+    height: 50px;
+}
+.img-modal{
+    width: 27rem;
+    height: 20rem;
+    left: 35%;
+}
+.move-bottom{
+    position: relative;
+    top: 100px !important;
+}
+.file-input{
+    width: 300px;
+}
+.loader{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    z-index: 500;
+}
+.mainpage-loader{
+    left: 50%;
+}
+@keyframes loader{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.account-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.header-icon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.backward-btn{
+    cursor: pointer;
+    font-size: 40px;
+    color: rgb(214, 57, 57);
+}
+.message-boxes{
+    margin-top: 20px;
+}
+.message-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: -5px;
+}
+.message-container{
+    border-radius: 10px;
+    line-height: 25px;
+}
+.message-container:hover{
+    background-color: #f4f4f4;
+}
+.username-text{
+    font-size: 17px;
+    width: fit-content;
+}
+.last-message{
+    font-size: 15px;
+    width: 250px;
+}
+.message-to-input{
+    margin-top: 25px;
+}
+.message-cancel{
+    position: relative;
+    left: -40px;
+    top: 10px;
+}
+.search-box, .input-box{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+}
+.search-box:active{
+    border-width: 2px !important;
+    border-color: dodgerblue !important;
+}
+.blue-border{
+    border: 2px solid dodgerblue;
+}
+.search-text{
+    font-size: 15px;
+}
+.search-user, .message-user{
+    width: 240px !important;
+    border: none !important;
+    box-shadow: none !important;
+    position: relative !important;
+    top: -5px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.send-message-input{
+    position: fixed;
+    bottom: 40px;
+    right: 24px;
+}
+.input-box{
+    padding: 0;
+}
+.input-box:active{
+    border-width: 2px !important;
+    border-color: dodgerblue !important;
+}
+.message-user{
+    width: 250px !important;
+    top: 2px !important;;
+}
+.found-users{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 200px;
+}
+.searched-image{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: -40px;
+}
+.searched-icon{
+    position: relative;
+    left: -45px;
+    font-size: 67px;
+}
+.searched-users{
+    margin-bottom: 10px;
+    width: 230px;
+}
+.searched-name{
+    font-size: 15px;
+    width: 200px;
+    height: 27px;
+}
+.searched-user:hover{
+    background-color: #f4f4f4;
+}
+.searched-username{
+    font-size: 10px;
+}
+.send-icon{
+    position: relative;
+    top: 13px;
+    left: -10px;
+    color: rgb(214, 57, 57);
+    cursor: pointer;
+}
+.not-found{
+    font-size: 80px;
+    color: dodgerblue;
+    animation-name: no-user;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes no-user{
+    0%{
+        color: dodgerblue;
+    }
+    40%{
+        color: pink;
+    }
+    70%{
+        color: rgb(248, 202, 117);
+    }
+    100%{
+        color: dodgerblue;
+    }
+}
+.huge{
+    font-size: 150px;
+    color: rgb(189, 38, 38);
+    border-radius: 60%;
+    border:none;
+}
+.profile-picture{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.name{
+    font-size: 45px;
+}
+.about-info{
+    font-size: 17px;
+    font-weight: 400;
+}
+.profile-loader{
+    width : 100px;
+    animation-name: loading2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes loading2 {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.follow-info{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.following{
+    cursor: pointer;
+}
+.followers {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.followers::after{
+    content: ".";
+    position: relative;
+    left: 5px;
+    color: rgb(231, 54, 54);
+    top: -5px;
+    cursor: auto;
+}
+.follow-btn{
+    position: relative;
+    font-weight: 700;
+    padding: 16px;
+    left: initial;
+    left: -10px;
+    margin-bottom: 20px;
+}
+.pin-info{
+    font-size: 16px;
+}
+.add-pins{
+    font-size: 40px;
+    width: 50px;
+}
+.add-container{
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+}
+.add-icon{
+    position: relative;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    width: 50px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 16px;
+
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: -50px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.add-icon:hover {
+    animation-play-state: paused;
+}
+@keyframes float{
+    0%{
+        top: -16px;
+    }
+    50%{
+        top: 2px;
+    }
+    100%{
+        top: -16px;
+    }
+}
+.pin-add-modal{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 10px 5px;
+    height: 200px;
+    width: 600px;
+    border-radius: 30px;
+}
+.image-input{
+    border: 1px solid dodgerblue;
+}
+.modal-image{
+    width: 350px;
+    height: 400px;
+}
+.about-info-container{
+    margin-bottom: 10px;
+}
+.show-animate{
+    animation-name: dropping-down;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.greyBgColor{
+    background-color: #f4f4f4;
+}
+@keyframes dropping-down{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 34%;
+    }
+}
+
+@media (max-width: 530px){
+    .s-buttons{
+        position: relative !important;
+        left: -240px !important;
+    }
+}

@@ -100,7 +100,11 @@ export default function EditProfile(props){
                         location: (location !== '') ? location : locationMain,               
                     }).then(() => {
 
+<<<<<<< HEAD
                         alert("Success. Refresh to see changes.");
+=======
+                        alert("Success, Refresh to see the changes!.");
+>>>>>>> 8c74d29a936ba90cc25dd0e69f2a08b47b4b1d9e
 
                         // change default inputs
                         userReference.get().then(snapshot => {
